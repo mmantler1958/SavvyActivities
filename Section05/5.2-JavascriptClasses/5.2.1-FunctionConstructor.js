@@ -22,5 +22,6 @@ logThis();
 // create a function in the global scope that prints "this"
 
 function globalScope() {
-  
+  console.log(this);
 }
+globalScope();
